@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="ShiftMind">
+  <rect width="600" height="600" fill="#f4f4f4"/>
+  <g stroke="#000000" stroke-width="6" fill="none">
+    <rect x="110" y="240" width="150" height="96" rx="14"/>
+    <rect x="340" y="240" width="150" height="96" rx="14"/>
+    <line x1="260" y1="288" x2="340" y2="288"/>
+  </g>
+  <g fill="#000000">
+    <circle cx="185" cy="288" r="11"/>
+    <circle cx="415" cy="288" r="11"/>
+  </g>
+  <rect x="90" y="430" width="420" height="22" fill="#000000"/>
+  <text x="300" y="510" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="22" letter-spacing="6" fill="#666666">SHARED MEMORY</text>
+</svg>

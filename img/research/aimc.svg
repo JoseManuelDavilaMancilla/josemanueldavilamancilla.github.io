@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Agent-to-agent sharing">
+  <rect width="600" height="600" fill="#f4f4f4"/>
+  <g stroke="#000000" stroke-width="6" fill="#f4f4f4">
+    <circle cx="170" cy="300" r="84"/>
+    <circle cx="430" cy="300" r="84"/>
+  </g>
+  <text x="170" y="312" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="44" fill="#000000">A</text>
+  <text x="430" y="312" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-weight="700" font-size="44" fill="#000000">A</text>
+  <line x1="254" y1="300" x2="346" y2="300" stroke="#000000" stroke-width="5" stroke-dasharray="12 12"/>
+  <polygon points="336,288 356,300 336,312" fill="#000000"/>
+  <polygon points="264,288 244,300 264,312" fill="#000000"/>
+  <text x="170" y="430" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="20" letter-spacing="4" fill="#999999">HUMAN</text>
+  <text x="430" y="430" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="20" letter-spacing="4" fill="#999999">HUMAN</text>
+  <text x="300" y="510" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif"
+        font-size="22" letter-spacing="5" fill="#666666">DUAL BYSTANDER</text>
+</svg>

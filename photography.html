@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>photography — manuel dávila</title>
+  <meta name="description" content="rolls, attempts, and happy accidents — film photography by manuel dávila.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=jia1">
+</head>
+<body>
+
+  <header class="site-chrome">
+    <a class="wordmark" href="index.html">manuel dávila <span class="pn">戴鸿哲</span></a>
+    <nav class="site-nav">
+      <a href="about.html">about</a>
+      <a href="research.html">research</a>
+      <a href="photography.html" aria-current="page">photography</a>
+      <a href="friends.html">friends</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>rolls, attempts, and happy accidents</h1>
+    </div>
+
+    <section>
+      <p>i shoot film because each frame costs something. you get thirty-six chances to pay attention, and then you wait a week to find out how badly you did. it is the slowest way to take a picture and the fastest way to learn how to see.</p>
+    </section>
+
+    <section>
+      <div class="tile-grid" id="gallery" aria-label="film photography gallery">
+        <noscript>
+          <p>enable javascript to view the gallery, or browse the scans in <code>img/photography/</code>.</p>
+        </noscript>
+      </div>
+      <p class="muted">scans drop into <code>img/photography/</code> — one line each in <code>js/gallery.js</code></p>
+    </section>
+
+    <section>
+      <div class="card">
+        <p class="sec-title">if you're ever in beijing</p>
+        <div class="def-list">
+          <div class="def-row"><span class="k">01</span><span class="v"><span class="ph">[ a favorite spot — to be paired with a film photo of it ]</span></span></div>
+          <div class="def-row"><span class="k">02</span><span class="v"><span class="ph">[ another favorite spot — to be paired with a film photo of it ]</span></span></div>
+          <div class="def-row"><span class="k">03</span><span class="v"><span class="ph">[ a third favorite spot — to be paired with a film photo of it ]</span></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <span>not part of a webring yet — maybe soon</span>
+      <span class="links">
+        <a href="mailto:jmanueldm.02@gmail.com">email</a>
+        <a href="https://github.com/JoseManuelDavilaMancilla">github</a>
+        <a href="https://www.linkedin.com/in/jmanuel-dávila">linkedin</a>
+      </span>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="photo viewer" tabindex="-1">
+    <button class="close" id="lb-close" aria-label="close">close ✕</button>
+    <button class="nav-btn" id="lb-prev" aria-label="previous">‹</button>
+    <img id="lb-img" src="" alt="">
+    <button class="nav-btn" id="lb-next" aria-label="next">›</button>
+    <p class="cap" id="lb-cap"></p>
+  </div>
+
+  <script src="js/gallery.js" defer></script>
+</body>
+</html>

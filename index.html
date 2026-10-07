@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manuel dávila</title>
+  <meta name="description" content="manuel dávila — grad student in beijing, doing research (and mostly failing), shooting film, getting humbled on the mats.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=jia1">
+</head>
+<body>
+
+  <header class="site-chrome">
+    <a class="wordmark" href="index.html">manuel dávila <span class="pn">戴鸿哲</span></a>
+    <nav class="site-nav">
+      <a href="about.html">about</a>
+      <a href="research.html">research</a>
+      <a href="photography.html">photography</a>
+      <a href="friends.html">friends</a>
+    </nav>
+  </header>
+
+  <!-- 1 · hero ------------------------------------------------------------>
+  <section class="hero" id="hero">
+    <video id="hero-video" autoplay muted loop playsinline poster="" preload="metadata">
+      <source src="video/hero.mov" type="video/quicktime">
+    </video>
+    <div class="hero-overlay"></div>
+    <p class="hero-ph" id="hero-ph"><span class="ph">[ hero video — drop a file at video/hero.mov and this disappears ]</span></p>
+    <div class="hero-controls">
+      <button type="button" class="vid-btn active" data-src="video/hero.mov" data-label="beijing">beijing</button>
+      <button type="button" class="vid-btn" data-src="video/home.mov" data-label="home">home</button>
+      <button type="button" class="vid-btn" data-src="video/mats.mov" data-label="mats">mats</button>
+      <button type="button" class="vid-btn" data-src="video/old-intro.mov" data-label="old intro">old intro</button>
+      <span class="sep">·</span>
+      <button type="button" id="mute-toggle">unmute</button>
+    </div>
+  </section>
+
+  <main class="wrap">
+
+    <!-- 1.5 · epigraph (one per visit) ------------------------------------->
+    <p class="epigraph" id="epigraph"></p>
+
+    <!-- 2 · update note --------------------------------------------------->
+    <section class="update-note" id="update">
+      <p class="date-line">july updates, 7·26·26, beijing:</p>
+      <p><span class="ph">[ first short life update goes here — two or three sentences about what this month actually felt like ]</span></p>
+      <p><span class="ph">[ second short life update goes here — what changed since the last time you wrote one of these ]</span></p>
+    </section>
+
+    <!-- 3 · bio card ------------------------------------------------------>
+    <section id="bio">
+      <div class="bio-card">
+        <img class="bio-portrait" src="img/portrait.svg" alt="portrait of manuel dávila (placeholder)">
+        <div class="bio-body">
+          <p>i'm manuel (<span class="pn">戴鸿哲</span>), a grad student at <span class="pn">Tsinghua</span> trying to do research (and mostly failing), learning film one roll at a time, and getting humbled on the mats as often as i can.</p>
+
+          <div class="socials">
+            <a href="https://github.com/JoseManuelDavilaMancilla" aria-label="github">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/jmanuel-dávila" aria-label="linkedin">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+            <a href="mailto:jmanueldm.02@gmail.com" aria-label="email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm10 8.7L3.6 6v12.4h16.8V6L12 12.7zM4.5 5.5L12 10.9l7.5-5.4h-15z"/></svg>
+            </a>
+          </div>
+
+          <details class="previous" open>
+            <summary>previous stuff i did</summary>
+            <ul>
+              <li>founding data engineer at an insurtech (<span class="pn">Ebel</span>)</li>
+              <li><span class="pn">ML</span> pipelines for steel (<span class="pn">Ternium</span>) and banking (<span class="pn">Santander</span>, <span class="num">~365k hours/year</span> saved)</li>
+              <li>environmental data for the <span class="pn">State of Nuevo León</span></li>
+              <li><span class="pn">BI</span> &amp; people analytics at <span class="pn">Grupo DeAcero</span></li>
+              <li>two <span class="num">SCOPUS</span> papers on logistics optimization with <span class="pn">Prof. Fernando Elizalde Ramírez</span> (<span class="pn">ITESM</span>)</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · the nopal (hover it) ------------------------------------------>
+    <section class="ascii-block" id="art">
+      <pre class="ascii-art" id="ascii-art">              _
+            _{*}_
+             \|/
+       .--.  |  .--.
+      ( ·· ) | ( ·· )
+       `--'  |  `--'
+         \   |   /
+    .--.  \  |  /  .--.
+   ( ·· )  \ |/  ( ·· )
+    `--'    |    `--'
+            |
+     _______|_______
+    |_______________|</pre>
+      <div id="scramble-tip" aria-hidden="true"></div>
+    </section>
+
+    <!-- 5 · photo strip --------------------------------------------------->
+    <section id="photos">
+      <div class="photo-strip">
+        <figure>
+          <div class="photo-ph"><span class="ph">[ photo — a frame from the current roll ]</span></div>
+          <figcaption><span class="ph">[ caption for it, one line ]</span></figcaption>
+        </figure>
+        <figure>
+          <div class="photo-ph"><span class="ph">[ photo — another frame ]</span></div>
+          <figcaption><span class="ph">[ caption for it, one line ]</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 6 · current thoughts ---------------------------------------------->
+    <section id="thoughts">
+      <div class="card">
+        <p class="sec-title">current thoughts</p>
+        <div class="diary-list">
+          <div class="diary-entry">
+            <p class="ts">july 26th, 2026, beijing</p>
+            <p><span class="ph">[ one sentence about jiu-jitsu — probably something i got wrong on the mats this week ]</span></p>
+          </div>
+          <div class="diary-entry">
+            <p class="ts">july 19th, 2026, beijing</p>
+            <p><span class="ph">[ one sentence about film — what the current roll is teaching me ]</span></p>
+          </div>
+          <div class="diary-entry">
+            <p class="ts">july 12th, 2026, beijing</p>
+            <p><span class="ph">[ one sentence about research failing — and why that's the point ]</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · questions ----------------------------------------------------->
+    <section id="questions">
+      <div class="card">
+        <p class="sec-title">questions</p>
+        <p class="muted">ask me anything — i usually respond day of.</p>
+        <form class="q-form" id="q-form">
+          <input type="text" id="q-input" placeholder="type a question…" autocomplete="off">
+          <button type="submit">ask</button>
+        </form>
+        <div class="qa-cards">
+          <div class="card qa-card">
+            <p class="q"><span class="ph">[ a question someone actually asked ]</span></p>
+            <p class="a"><span class="ph">[ the answer i gave, one or two sentences ]</span></p>
+          </div>
+          <div class="card qa-card">
+            <p class="q"><span class="ph">[ another question someone actually asked ]</span></p>
+            <p class="a"><span class="ph">[ the answer i gave, one or two sentences ]</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 8 · footer ---------------------------------------------------------->
+  <footer class="site-footer">
+    <div class="inner">
+      <span>not part of a webring yet — maybe soon · press <strong>/</strong> to say hi</span>
+      <span class="links">
+        <a href="mailto:jmanueldm.02@gmail.com">email</a>
+        <a href="https://github.com/JoseManuelDavilaMancilla">github</a>
+        <a href="https://www.linkedin.com/in/jmanuel-dávila">linkedin</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- say-hi modal --------------------------------------------------------->
+  <div class="hi-modal" id="hi-modal" aria-hidden="true">
+    <div class="hi-card">
+      <p class="hi-title">say hi</p>
+      <p>manuel is probably at the gym, the lab, or waiting on a roll at the lab (the other kind).</p>
+      <p><a href="mailto:jmanueldm.02@gmail.com">jmanueldm.02@gmail.com</a></p>
+      <p class="muted">esc to close</p>
+    </div>
+  </div>
+
+  <script>
+    /* hero: video switcher + mute toggle + placeholder hide */
+    (function () {
+      const vid = document.getElementById("hero-video");
+      const btns = document.querySelectorAll(".vid-btn");
+      const muteBtn = document.getElementById("mute-toggle");
+      const heroPh = document.getElementById("hero-ph");
+      const mq = window.matchMedia("(max-width: 700px)");
+
+      function relabel() {
+        btns.forEach((b, i) => { b.textContent = mq.matches ? String(i + 1) : b.dataset.label; });
+      }
+      mq.addEventListener ? mq.addEventListener("change", relabel) : mq.addListener(relabel);
+      relabel();
+
+      vid.addEventListener("canplay", () => { if (heroPh) heroPh.style.display = "none"; });
+
+      btns.forEach((b) => {
+        b.addEventListener("click", () => {
+          btns.forEach((x) => x.classList.remove("active"));
+          b.classList.add("active");
+          if (heroPh) heroPh.style.display = "";
+          vid.querySelector("source").src = b.dataset.src;
+          vid.load();
+          vid.play().catch(() => {});
+        });
+      });
+
+      muteBtn.addEventListener("click", () => {
+        vid.muted = !vid.muted;
+        muteBtn.textContent = vid.muted ? "unmute" : "mute";
+      });
+
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        vid.removeAttribute("autoplay");
+        vid.pause();
+      }
+    })();
+
+    /* epigraph: one random line per visit */
+    (function () {
+      const lines = [
+        "ars longa, vita brevis — art is long, life is short",
+        "ad astra per aspera — to the stars, through hardship",
+        "de México, con calor",
+      ];
+      const el = document.getElementById("epigraph");
+      if (el) el.textContent = lines[Math.floor(Math.random() * lines.length)];
+    })();
+
+    /* say-hi modal: press / anywhere */
+    (function () {
+      const modal = document.getElementById("hi-modal");
+      if (!modal) return;
+      document.addEventListener("keydown", (e) => {
+        const typing = /input|textarea/i.test(document.activeElement.tagName);
+        if (e.key === "/" && !typing) { e.preventDefault(); modal.classList.add("open"); }
+        if (e.key === "Escape") modal.classList.remove("open");
+      });
+      modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("open"); });
+    })();
+  </script>
+  <script src="js/scramble.js" defer></script>
+  <script src="js/questions.js" defer></script>
+</body>
+</html>
